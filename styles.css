@@ -1,0 +1,39 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family */
+    background-color: #f4f4f9; /* Light background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    padding: 20px; /* Padding inside header */
+    text-align: center; /* Centers the text */
+}
+
+/* Experiment section styling */
+#lab-setup, #experiment {
+    margin: 20px; /* Adds margin to sections */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    background-color: white; /* White background for sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth effect */
+}
+
+/* Button styling */
+button {
+    background-color: #008CBA; /* Blue background for the button */
+    color: white; /* White text on the button */
+    padding: 15px 32px; /* Button padding */
+    font-size: 16px; /* Button text size */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounded corners on button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #005f6b; /* Darker blue on hover */
+}
